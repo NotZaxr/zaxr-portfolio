@@ -122,7 +122,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A comprehensive mobile app that helps users find and verify halal products and services. The app includes a QR code scanning feature for easy product verification, ingredient matching, and alternative product recommendations, catering to the global Muslim community.",
-    technologies: ["React Native", "Firebase", "SQL/NoSQL", "Docker", "AWS"],
+    technologies: ["React Native", "Firebase", "Docker", "AWS"],
   },
   {
     title: "Zaxr Website",
