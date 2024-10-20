@@ -31,7 +31,7 @@ const Projects = () => {
                      transition={{ duration: 1.5 }}
                     className="w-full max-w-xl lg:2-3/4">
                         <h6 className="mb-2 font-semibold">{project.title}</h6>
-                        <p className="mb-4 text-neutral-400">{project.description}</p>
+                        <p className="mb-4 text-neutral-400 text-justify">{project.description}</p>
                         {project.technologies.map((tech, index) => (
                             <span key={index} className="px-2 py-1 mr-2 text-sm font-medium text-purple-900 rounded bg-neutral-900">{tech}</span>
                         ))}
