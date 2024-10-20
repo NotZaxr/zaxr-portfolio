@@ -12,7 +12,7 @@ const Navbar = () => {
         <h1 className="text-white">Zaxr</h1>
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="www.linkedin.com/in/notzaxr"><FaLinkedin /></a>
+        <a href="https://linkedin.com/in/notzaxr"><FaLinkedin /></a>
         <a href="https://github.com/NotZaxr"><FaGithub /></a>
         <a href="https://www.instagram.com/notzaxr/"><FaInstagram /></a>
         <a href="https://x.com/notzaxr"><FaSquareXTwitter /></a>
