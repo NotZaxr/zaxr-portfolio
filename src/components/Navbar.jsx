@@ -9,13 +9,13 @@ const Navbar = () => {
   return (<nav className="mb-20 flex items-center justify-between py-6">
     <div className="flex flex-shrink-0 items-center">
         {/* <img className="mx-2 w-10" src={logo} alt="logo"/> */}
-        <h2 className="text-white">Zaxr</h2>
+        <h1 className="text-white">Zaxr</h1>
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href=""><FaLinkedin /></a>
-        <FaGithub />
-        <FaInstagram />
-        <FaSquareXTwitter />
+        <a href="www.linkedin.com/in/notzaxr"><FaLinkedin /></a>
+        <a href="https://github.com/NotZaxr"><FaGithub /></a>
+        <a href="https://www.instagram.com/notzaxr/"><FaInstagram /></a>
+        <a href="https://x.com/notzaxr"><FaSquareXTwitter /></a>
     </div>
   </nav>);
 };
